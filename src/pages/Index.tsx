@@ -92,6 +92,11 @@ const Index = () => {
         {(quote || isLoading) && (
           <QuoteCard quote={quote} author={author} isLoading={isLoading} />
         )}
+
+        {/* Footer */}
+        <footer className="mt-12 text-center text-gray-500 text-sm">
+          Made with 💖 by Sagar
+        </footer>
       </motion.div>
     </div>
   );
